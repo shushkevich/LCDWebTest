@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>LCD Test</title>
+    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $("div").toggle(
+          function() {$(this).css("background-color", "#ff0000")},
+          function() {$(this).css("background-color", "#00ff00")},
+          function() {$(this).css("background-color", "#0000ff")},
+          function() {$(this).css("background-color", "#ffff00")},
+          function() {$(this).css("background-color", "#00ffff")},
+          function() {$(this).css("background-color", "#ff00ff")},
+          function() {$(this).css("background-color", "#000000")},
+          function() {$(this).css("background-color", "#ffffff")}
+        );
+      });
+    </script>
+  </head>
+
+  <body style="margin: 0">
+    <div style="height: 100%"></div>
+  </body>
+</html>
